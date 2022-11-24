@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E49E811A2923C72400C0B2D7 /* ContapassiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E81192923C72400C0B2D7 /* ContapassiApp.swift */; };
+		E49E811A2923C72400C0B2D7 /* PedometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E81192923C72400C0B2D7 /* PedometerApp.swift */; };
 		E49E811C2923C72400C0B2D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E811B2923C72400C0B2D7 /* ContentView.swift */; };
 		E49E811E2923C72500C0B2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49E811D2923C72500C0B2D7 /* Assets.xcassets */; };
 		E49E81212923C72500C0B2D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49E81202923C72500C0B2D7 /* Preview Assets.xcassets */; };
+		E49E8128292525DC00C0B2D7 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E8127292525DC00C0B2D7 /* Pedometer.swift */; };
+		E49E812A29252F9800C0B2D7 /* PedometerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E812929252F9800C0B2D7 /* PedometerContainer.swift */; };
+		E49E812E292533E300C0B2D7 /* SecondCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E812D292533E300C0B2D7 /* SecondCounter.swift */; };
+		E49E81302925365C00C0B2D7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E812F2925365C00C0B2D7 /* MainView.swift */; };
+		E49E814C292A7D2500C0B2D7 /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E814B292A7D2500C0B2D7 /* SensorData.swift */; };
+		E49E8176292D342100C0B2D7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E8175292D342100C0B2D7 /* ProfileView.swift */; };
+		E49E817A292D39D700C0B2D7 /* TrophyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E8179292D39D700C0B2D7 /* TrophyView.swift */; };
+		E49E817C292E831600C0B2D7 /* distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E817B292E831600C0B2D7 /* distance.swift */; };
+		E49E8181292EE0EE00C0B2D7 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E8180292EE0EE00C0B2D7 /* Map.swift */; };
+		E49E8183292FB86C00C0B2D7 /* CaloriesCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E8182292FB86C00C0B2D7 /* CaloriesCounter.swift */; };
+		E49E8187292FBD0200C0B2D7 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49E8186292FBD0200C0B2D7 /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E49E81162923C72400C0B2D7 /* Contapassi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contapassi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E49E81192923C72400C0B2D7 /* ContapassiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContapassiApp.swift; sourceTree = "<group>"; };
+		E49E81162923C72400C0B2D7 /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49E81192923C72400C0B2D7 /* PedometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerApp.swift; sourceTree = "<group>"; };
 		E49E811B2923C72400C0B2D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E49E811D2923C72500C0B2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49E81202923C72500C0B2D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E49E8127292525DC00C0B2D7 /* Pedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
+		E49E812929252F9800C0B2D7 /* PedometerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerContainer.swift; sourceTree = "<group>"; };
+		E49E812D292533E300C0B2D7 /* SecondCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCounter.swift; sourceTree = "<group>"; };
+		E49E812F2925365C00C0B2D7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E49E814B292A7D2500C0B2D7 /* SensorData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorData.swift; path = ../../sensoreCotapassi/ContapassiSensore/ContapassiSensore/SensorData.swift; sourceTree = "<group>"; };
+		E49E8175292D342100C0B2D7 /* ProfileView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 0; };
+		E49E8179292D39D700C0B2D7 /* TrophyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrophyView.swift; sourceTree = "<group>"; };
+		E49E817B292E831600C0B2D7 /* distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distance.swift; sourceTree = "<group>"; };
+		E49E817D292EC97300C0B2D7 /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		E49E8180292EE0EE00C0B2D7 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		E49E8182292FB86C00C0B2D7 /* CaloriesCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCounter.swift; sourceTree = "<group>"; };
+		E49E8186292FBD0200C0B2D7 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +58,7 @@
 		E49E810D2923C72400C0B2D7 = {
 			isa = PBXGroup;
 			children = (
-				E49E81182923C72400C0B2D7 /* Contapassi */,
+				E49E81182923C72400C0B2D7 /* Pedometer */,
 				E49E81172923C72400C0B2D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +66,21 @@
 		E49E81172923C72400C0B2D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E49E81162923C72400C0B2D7 /* Contapassi.app */,
+				E49E81162923C72400C0B2D7 /* Pedometer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E49E81182923C72400C0B2D7 /* Contapassi */ = {
+		E49E81182923C72400C0B2D7 /* Pedometer */ = {
 			isa = PBXGroup;
 			children = (
-				E49E81192923C72400C0B2D7 /* ContapassiApp.swift */,
-				E49E811B2923C72400C0B2D7 /* ContentView.swift */,
+				E49E81192923C72400C0B2D7 /* PedometerApp.swift */,
+				E49E8173292D308F00C0B2D7 /* Views */,
+				E49E814B292A7D2500C0B2D7 /* SensorData.swift */,
 				E49E811D2923C72500C0B2D7 /* Assets.xcassets */,
 				E49E811F2923C72500C0B2D7 /* Preview Content */,
 			);
-			path = Contapassi;
+			path = Pedometer;
 			sourceTree = "<group>";
 		};
 		E49E811F2923C72500C0B2D7 /* Preview Content */ = {
@@ -67,12 +91,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E49E8173292D308F00C0B2D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E49E811B2923C72400C0B2D7 /* ContentView.swift */,
+				E49E8182292FB86C00C0B2D7 /* CaloriesCounter.swift */,
+				E49E8186292FBD0200C0B2D7 /* StatsView.swift */,
+				E49E8180292EE0EE00C0B2D7 /* Map.swift */,
+				E49E812929252F9800C0B2D7 /* PedometerContainer.swift */,
+				E49E8127292525DC00C0B2D7 /* Pedometer.swift */,
+				E49E812D292533E300C0B2D7 /* SecondCounter.swift */,
+				E49E812F2925365C00C0B2D7 /* MainView.swift */,
+				E49E8179292D39D700C0B2D7 /* TrophyView.swift */,
+				E49E8175292D342100C0B2D7 /* ProfileView.swift */,
+				E49E8174292D30AD00C0B2D7 /* Models */,
+				E49E817B292E831600C0B2D7 /* distance.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E49E8174292D30AD00C0B2D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E49E817D292EC97300C0B2D7 /* SensorData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E49E81152923C72400C0B2D7 /* Contapassi */ = {
+		E49E81152923C72400C0B2D7 /* Pedometer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E49E81242923C72500C0B2D7 /* Build configuration list for PBXNativeTarget "Contapassi" */;
+			buildConfigurationList = E49E81242923C72500C0B2D7 /* Build configuration list for PBXNativeTarget "Pedometer" */;
 			buildPhases = (
 				E49E81122923C72400C0B2D7 /* Sources */,
 				E49E81132923C72400C0B2D7 /* Frameworks */,
@@ -82,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = Contapassi;
+			name = Pedometer;
 			productName = Contapassi;
-			productReference = E49E81162923C72400C0B2D7 /* Contapassi.app */;
+			productReference = E49E81162923C72400C0B2D7 /* Pedometer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E49E81112923C72400C0B2D7 /* Build configuration list for PBXProject "Contapassi" */;
+			buildConfigurationList = E49E81112923C72400C0B2D7 /* Build configuration list for PBXProject "Pedometer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E49E81152923C72400C0B2D7 /* Contapassi */,
+				E49E81152923C72400C0B2D7 /* Pedometer */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49E8176292D342100C0B2D7 /* ProfileView.swift in Sources */,
+				E49E812E292533E300C0B2D7 /* SecondCounter.swift in Sources */,
+				E49E81302925365C00C0B2D7 /* MainView.swift in Sources */,
+				E49E817A292D39D700C0B2D7 /* TrophyView.swift in Sources */,
+				E49E817C292E831600C0B2D7 /* distance.swift in Sources */,
+				E49E814C292A7D2500C0B2D7 /* SensorData.swift in Sources */,
 				E49E811C2923C72400C0B2D7 /* ContentView.swift in Sources */,
-				E49E811A2923C72400C0B2D7 /* ContapassiApp.swift in Sources */,
+				E49E811A2923C72400C0B2D7 /* PedometerApp.swift in Sources */,
+				E49E8183292FB86C00C0B2D7 /* CaloriesCounter.swift in Sources */,
+				E49E8187292FBD0200C0B2D7 /* StatsView.swift in Sources */,
+				E49E8128292525DC00C0B2D7 /* Pedometer.swift in Sources */,
+				E49E8181292EE0EE00C0B2D7 /* Map.swift in Sources */,
+				E49E812A29252F9800C0B2D7 /* PedometerContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +328,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Contapassi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pedometer/Preview Content\"";
 				DEVELOPMENT_TEAM = 967CU6657R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app require to access motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,10 +358,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Contapassi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pedometer/Preview Content\"";
 				DEVELOPMENT_TEAM = 967CU6657R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "This app require to access motion data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E49E81112923C72400C0B2D7 /* Build configuration list for PBXProject "Contapassi" */ = {
+		E49E81112923C72400C0B2D7 /* Build configuration list for PBXProject "Pedometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49E81222923C72500C0B2D7 /* Debug */,
@@ -329,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E49E81242923C72500C0B2D7 /* Build configuration list for PBXNativeTarget "Contapassi" */ = {
+		E49E81242923C72500C0B2D7 /* Build configuration list for PBXNativeTarget "Pedometer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49E81252923C72500C0B2D7 /* Debug */,
